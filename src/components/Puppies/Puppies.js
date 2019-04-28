@@ -18,11 +18,11 @@ class Puppies extends Component {
                         this.props.posts.items.map((item, i) => {
                             return (
                                 <div className="card profile-card" key={i} style={{ style }}>
-                                    <img className="card-img-top profile-image" src={item.thumbnail} alt="Card image" />
+                                    <img className="card-img-top profile-image" src={item.thumbnail} alt="puppie-pic" />
                                     <div className="card-body">
                                         <h4 className="card-title">{item.name}</h4>
-                                        <a className="btn btn-primary">Accept</a>
-                                        <a className="btn btn-danger reject-btn">Reject</a>
+                                        <button className="btn btn-primary">Accept</button>
+                                        <button className="btn btn-danger reject-btn">Reject</button>
                                     </div>
                                 </div>
                             )
