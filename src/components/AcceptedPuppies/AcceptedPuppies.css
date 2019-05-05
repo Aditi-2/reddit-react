@@ -1,0 +1,18 @@
+.profile-card{
+    min-width:300px !important;
+    max-width: 314px;
+    text-align: left;
+    display: inline-block;
+    margin-bottom:30px;
+    margin-top:2%;
+
+}
+.spaceTop{
+    margin-top:5%;
+}
+.profile-image{
+    max-width:230px;
+}
+.reject-btn{
+    margin-left: 2%;
+}

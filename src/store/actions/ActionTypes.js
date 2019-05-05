@@ -1,3 +1,5 @@
 export const LOGIN = 'LOGIN'
 export const RECEIVE_POSTS = 'RECEIVE_POSTS'
 export const REQUEST_POSTS = 'REQUEST_POSTS'
+export const ACCEPT = 'ACCEPT'
+export const REJECT = 'REJECT'

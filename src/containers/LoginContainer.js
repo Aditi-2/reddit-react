@@ -16,7 +16,7 @@ export default connect(
         dispatch(push('/home'))
       }
       else {
-        alert("Please enter correct credentials");
+        alert("Please enter correct credentials")
       }
     }
   })

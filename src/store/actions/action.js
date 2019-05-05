@@ -29,3 +29,17 @@ export const fetchPosts =(subreddit) => {
       .then(json => dispatch(receivePosts(subreddit, json)))
   }
 }
+
+export const accept = (item) => {
+  return {
+    type: types.ACCEPT,
+    item
+  }
+}
+
+export const reject = (item) => {
+  return {
+    type: types.REJECT,
+    item
+  }
+}

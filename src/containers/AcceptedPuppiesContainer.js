@@ -1,11 +1,11 @@
 import { connect } from 'react-redux'
-import Puppies from '../components/Puppies/Puppies'
+import AcceptedPuppies from '../components/AcceptedPuppies/AcceptedPuppies'
 import { push } from 'connected-react-router'
 import { fetchPosts, accept, reject } from '../store/actions/action'
 
 export default connect(
   (state, ownProps) => {
-    return { posts: state.reddit, user: state.user }
+      return { posts: state.reddit.accepted }
   },
   dispatch => ({
     redirectToHome: () => {
@@ -21,4 +21,4 @@ export default connect(
       dispatch(reject(item))
     }
   })
-)(Puppies)
+)(AcceptedPuppies)

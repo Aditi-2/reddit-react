@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import { Field, Form } from 'react-redux-form';
-import './Login.css';
+import React, { Component } from 'react'
+import { Field, Form } from 'react-redux-form'
+import './Login.css'
 
 class Login extends Component {
     // login form with username and password
@@ -31,7 +31,7 @@ class Login extends Component {
                     </div>
                 </div>
             </div>
-        );
+        )
     }
 
 }
